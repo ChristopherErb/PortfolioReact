@@ -1,0 +1,60 @@
+
+.appMain{
+  display:flex;
+}
+
+.NavBar
+{
+  display: flex;
+  flex-direction: column;
+  background-color:red;
+  height: 80vh;
+  width: 90px;
+}
+
+.resumeContainer
+{
+scale: 30%;
+margin-left: -850px;
+margin-top: -1100px
+}
+
+.centerText
+{
+  text-align:center
+}
+
+
+.card {
+  /* Add styles for the card container */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 250px; /* Adjust the width to your preference */
+}
+
+.card-image {
+  /* Set the dimensions for the image */
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card-description {
+  /* Add styles for the description container */
+  margin-top: 10px;
+}
+
+.card-description p {
+  /* Add styles for the description text */
+  margin: 0;
+}
+
+.card-description a {
+  /* Add styles for the "Read more" link */
+  display: block; /* Make the link a block element to take full width of the container */
+  text-align: right; /* Align the link to the right */
+  margin-top: 10px;
+  color: blue; /* Customize link color */
+  text-decoration: none;
+}
