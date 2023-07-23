@@ -1,27 +1,41 @@
+.app{
+  background-color: pink;
+  height:100%;
+}
 
 .appMain{
   display:flex;
+  margin-left: 100px
+  
 }
 
+.contentDiv
+{
+  background-color: blue;
+}
+
+.aboutPic img{
+
+  max-width: 300px;
+}
 .NavBar
 {
+  position: fixed;
   display: flex;
   flex-direction: column;
   background-color:red;
-  height: 80vh;
-  width: 90px;
+  height: 100%;
+  width: 70px;
 }
-
 .resumeContainer
 {
 scale: 30%;
 margin-left: -850px;
 margin-top: -1100px
 }
-
 .centerText
 {
-  text-align:center
+  text-align:center;
 }
 
 
@@ -51,10 +65,10 @@ margin-top: -1100px
 }
 
 .card-description a {
-  /* Add styles for the "Read more" link */
-  display: block; /* Make the link a block element to take full width of the container */
-  text-align: right; /* Align the link to the right */
+
+  display: block; 
+  text-align: right; 
   margin-top: 10px;
-  color: blue; /* Customize link color */
+  color: blue; 
   text-decoration: none;
 }
