@@ -1,6 +1,6 @@
 const Projects = () =>{
     return (
-      <div>
+      <div  className="textColor">
         <h1>Projects!</h1>
         <div class="card">
         <a href="http://fureverhome.surge.sh/">

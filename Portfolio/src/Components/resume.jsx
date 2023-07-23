@@ -1,7 +1,7 @@
 const MyResume = () =>{
 
     return(
-        <div>
+        <div className="textColor" >
             <h1>My Resume</h1>
       <div className="resumeContainer">
 

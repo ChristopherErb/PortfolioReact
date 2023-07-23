@@ -1,13 +1,12 @@
 const AboutMe = () => {
   return (
-
-
     <div className="contentDiv"> 
       <div className="aboutPic">
         <a href="https://www.linkedin.com/in/christophererb1">
           <img src="/MyPic.jpeg" />
         </a>
       </div>
+      <span className="textColor">
       As a versatile software engineer with a strong project management
       background, I bring a unique combination of technical expertise and
       project leadership to every endeavor. Driven by a passion for learning and
@@ -18,6 +17,7 @@ const AboutMe = () => {
       skills and embrace new challenges to create innovative solutions. Let's
       work together to create impactful solutions and achieve remarkable
       results.
+      </span>
     </div>
   );
 };

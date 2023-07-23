@@ -1,7 +1,3 @@
-.app{
-  background-color: pink;
-  height:100%;
-}
 
 .appMain{
   display:flex;
@@ -9,13 +5,19 @@
   
 }
 
-.contentDiv
+.textColor
 {
-  background-color: blue;
+  color: white;
+  font-size: 18px;
 }
 
-.aboutPic img{
+body{
+  background-image: url('/backgroundStars.jpeg');
+  background-size: 100%;
+}
 
+
+.aboutPic img{
   max-width: 300px;
 }
 .NavBar
@@ -23,9 +25,15 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  background-color:red;
+  background-color: rgba(0,0,0,0.25);
   height: 100%;
   width: 70px;
+  text-align: center;
+}
+
+.NavBar span
+{
+  color:white;
 }
 .resumeContainer
 {
