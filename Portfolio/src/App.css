@@ -1,3 +1,10 @@
+.aboutPic
+{
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+
 
 .appMain{
   display:flex;
@@ -5,10 +12,41 @@
   
 }
 
+.centerContent
+{
+  display:flex;
+  justify-content:inherit
+}
+
 .textColor
 {
   color: white;
   font-size: 18px;
+  font-weight: bold;
+  text-shadow: 
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
+}
+
+
+.textShadow
+{
+  color: white;
+  text-shadow: 
+        -1px -1px 0px #000,
+         0px -1px 0px #000,
+         1px -1px 0px #000,
+        -1px  0px 0px #000,
+         1px  0px 0px #000,
+        -1px  1px 0px #000,
+         0px  1px 0px #000,
+         1px  1px 0px #000;
 }
 
 body{
@@ -79,4 +117,17 @@ margin-top: -1100px
   margin-top: 10px;
   color: blue; 
   text-decoration: none;
+}
+
+.iconFloat
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.iconFloat img
+{
+  max-width: 100px;
 }
