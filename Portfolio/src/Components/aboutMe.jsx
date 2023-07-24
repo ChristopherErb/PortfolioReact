@@ -8,7 +8,7 @@ const AboutMe = () => {
           </span>
         <div className="aboutPic">
           <a href="https://www.linkedin.com/in/christophererb1">
-            <img src="/MyPic.jpeg" />
+            <img src="/HeadShot.jpeg" />
           </a>
         </div>
           <span className="textColor">
