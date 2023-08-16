@@ -1,15 +1,16 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
+
 .aboutPic
 {
   display: flex;
   justify-content:space-evenly;
-  
 }
 
 
 .appMain{
   display:flex;
   margin-left: 100px
-  
 }
 
 .centerContent
@@ -20,44 +21,22 @@
 
 .textColor
 {
-  color: white;
+  color: #313639;
   font-size: 18px;
   font-weight: bold;
-  text-shadow: 
-        -1px -1px 0px #000,
-         0px -1px 0px #000,
-         1px -1px 0px #000,
-        -1px  0px 0px #000,
-         1px  0px 0px #000,
-        -1px  1px 0px #000,
-         0px  1px 0px #000,
-         1px  1px 0px #000;
+  font-family: 'Roboto', sans-serif;
 }
 
-
-.textShadow
-{
-  color: white;
-  text-shadow: 
-        -1px -1px 0px #000,
-         0px -1px 0px #000,
-         1px -1px 0px #000,
-        -1px  0px 0px #000,
-         1px  0px 0px #000,
-        -1px  1px 0px #000,
-         0px  1px 0px #000,
-         1px  1px 0px #000;
-}
 
 body{
-  background-image: url('/backgroundStars.jpeg');
+  background-image: url('/marble.jpg');
   background-size: 100%;
 }
-
 
 .aboutPic img{
   max-width: 300px;
 }
+
 .NavBar
 {
   position: fixed;
