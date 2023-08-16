@@ -86,27 +86,27 @@ margin-top: -1100px
 
 
 .card {
-  /* Add styles for the card container */
+
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
-  width: 250px; /* Adjust the width to your preference */
+  width: 250px; 
 }
 
 .card-image {
-  /* Set the dimensions for the image */
+
   width: 100%;
   height: auto;
   border-radius: 4px;
 }
 
 .card-description {
-  /* Add styles for the description container */
+
   margin-top: 10px;
 }
 
 .card-description p {
-  /* Add styles for the description text */
+ 
   margin: 0;
 }
 
