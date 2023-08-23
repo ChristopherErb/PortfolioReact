@@ -2,6 +2,17 @@ const Projects = () =>{
     return (
       <div  className="textColor">
         <h1>Projects!</h1>
+      <div className="cardContainer">
+        <div class="card">
+        <a href="https://drywall.chriserb.dev/">
+          <img src="/CEDrywall.png" alt="ChrisErbDrywall" class="card-image" />
+          <div class="card-body">
+            <h3 className="card-text">Chris Erb Drywall</h3>
+            <p>         Discover the homepage for Chris Erb Drywall! A dynamic, full-stack,  web app that elevates customer access to a construction company's services. Seamlessly explore offerings, projects, and estimates. Modernize project tracking and customer interactions with its intuitive React and Django interface.
+            </p>
+          </div>
+          </a>
+        </div>
         <div class="card">
         <a href="http://fureverhome.surge.sh/">
           <img src="/FureverHome.png" alt="FureverHome" class="card-image" />
@@ -38,6 +49,7 @@ const Projects = () =>{
             </p>
           </div>
           </a>
+        </div>
         </div>
       </div>
     );

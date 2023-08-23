@@ -19,8 +19,16 @@ font-family: 'Roboto', sans-serif; */
   justify-content:inherit
 }
 
+.cardContainer
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .textColor
 {
+  justify-content: center;
   color: #313639;
   font-size: 18px;
   font-weight: bold;
@@ -69,7 +77,6 @@ margin-top: -550px
 
 
 .card {
-
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
