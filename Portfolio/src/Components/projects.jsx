@@ -5,10 +5,12 @@ const Projects = () =>{
         <div class="card">
         <a href="http://fureverhome.surge.sh/">
           <img src="/FureverHome.png" alt="FureverHome" class="card-image" />
-          <div class="card-description">
-            <h3>Furever home</h3>
-            <p>A front end website that allows users to put in pet requirements and searches
-                local shelters for a potential match. 
+          <div class="card-body">
+            <h3 className="card-text">Furever home</h3>
+            <p>A responsive front-end application using the Petfinder API, 
+              facilitating pet adoption by allowing users to search for animals across multiple 
+              shelters. Designed an intuitive user interface with JavaScript, 
+              HTML, and CSS, streamlining the adoption process and improving usability.
             </p>
           </div>
           </a>
@@ -16,10 +18,12 @@ const Projects = () =>{
         <div class="card">
         <a href="https://nebula-nav.vercel.app/">
           <img src="/nebulaNav.png" alt="NebulaNav" class="card-image" />
-          <div class="card-description">
+          <div class="card-body">
             <h3>Nebula Nav</h3>
-            <p>A full-stack educational website that shows 3d models of our solar system. 
-            Each model is interactable and shows information about the planet, and it's major moons.
+            <p>An immersive, educational three-dimensional model of the solar system.
+               Leveraged the power of the MERN stack and Three.js to develop a RESTful API and MongoDB database.
+                The interactive model showcases detailed information about planets and their major
+                 moons, enhancing users' understanding of celestial bodies.
             </p>
           </div>
           </a>
@@ -27,10 +31,10 @@ const Projects = () =>{
         <div class="card">
         <a href="https://voluble-donut-49330f.netlify.app">
           <img src="/SipSage.png" alt="SipSage" class="card-image" />
-          <div class="card-description">
+          <div class="card-body">
             <h4>Sipsage</h4>
-            <p>A front end app that utilizes the Food and Drink APIs to provide
-                recipes for coctails as well as main courses. 
+            <p>An engaging front-end application that taps into the Food and Drink
+               API to offer a diverse collection of cocktail and main course recipes.
             </p>
           </div>
           </a>
