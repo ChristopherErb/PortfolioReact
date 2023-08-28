@@ -11,7 +11,6 @@ const MainComponent = () =>
     return (
 
 
-        <div>
            
         <div className='routeContainer'>
         <Routes>
@@ -22,8 +21,7 @@ const MainComponent = () =>
         <Route path='/resume' element={<MyResume />} />
         </Routes>
         </div>
-        
-        </div>
+
     )
 }
 

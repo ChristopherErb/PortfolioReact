@@ -1,7 +1,7 @@
 const ContactMe = () => {
   return (
     <div className="textColor">
-      <h1>Contact Me</h1>
+      <h1 className="banner centerText">Contact Me</h1>
       <h3>I'd love to connect or hear from you!</h3>
 
       <div className="iconFloat">

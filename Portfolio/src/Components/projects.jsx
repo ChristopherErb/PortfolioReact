@@ -1,7 +1,9 @@
 const Projects = () =>{
     return (
       <div  className="textColor">
+        <div className="centerText banner">
         <h1>Projects!</h1>
+        </div>
       <div className="cardContainer">
         <div class="card">
         <a href="https://drywall.chriserb.dev/">

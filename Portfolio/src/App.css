@@ -1,6 +1,18 @@
 /* font-family: 'Pacifico', cursive;
 font-family: 'Roboto', sans-serif; */
 
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner
+{
+  background-color:#e7f5ff;
+  filter: blur(-10px);
+
+}
+
 .aboutPic
 {
   display: flex;
@@ -70,6 +82,13 @@ scale: 30%;
 margin-left: -500px;
 margin-top: -550px
 }
+
+.routeContainer
+{
+ margin: 30px;
+}
+
+
 .centerText
 {
   text-align:center;

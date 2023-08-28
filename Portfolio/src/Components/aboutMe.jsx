@@ -3,9 +3,8 @@ const AboutMe = () => {
     <div className="contentDiv">
       <div>
         <span className="textShadow">
-          <h1>Greetings! I'm Chris!</h1>
-          <h2>Just a full stack software engineer finding his place in the universe</h2>
-          </span>
+          <h1 className="banner centerText">Greetings! I'm Chris!</h1>
+         </span>
         <div className="aboutPic">
           <a href="https://www.linkedin.com/in/christophererb1">
             <img src="/HeadShot.jpeg" />
