@@ -14,7 +14,6 @@ function App() {
 <div className='app'>
 
   <NavBar />
-
   <Main />
    </div>
   )
